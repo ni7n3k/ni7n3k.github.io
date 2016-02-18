@@ -7303,11 +7303,20 @@ nav ul a span.badge {
 }
 
 nav {
-  color: #fff;
   background-color: #ee6e73;
   width: 100%;
   height: 56px;
-  line-height: 56px;
+  position: fixed;
+  line-height: 126px;
+  z-index: 999;
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  -ms-transition: height 0.3s;
+  -o-transition: height 0.3s;
+  transition: height 0.3s;
+}
+nav.smaller {
+  height: 56px;
 }
 
 nav a {
@@ -7469,15 +7478,51 @@ nav .input-field label.active {
   position: fixed;
 }
 
+
+
+
+
+
 @media only screen and (min-width: 601px) {
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: 64px;
+    height: 164px;
     line-height: 64px;
+    position: fixed;
+      -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    -ms-transition: height 0.3s;
+    -o-transition: height 0.3s;
+    transition: height 0.3s;
+  }
+    nav.smaller, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: 64px;
   }
   .navbar-fixed {
     height: 64px;
   }
 }
+
+
+
+header {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #0683c9;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    -ms-transition: height 0.3s;
+    -o-transition: height 0.3s;
+    transition: height 0.3s;
+}
+header.smaller {
+    height: 75px;
+}
+
 
 @font-face {
   font-family: "Roboto";
