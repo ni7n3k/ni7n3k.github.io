@@ -7,26 +7,27 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Poppins:700' rel='stylesheet' type='text/css'>
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.js"></script>
     <script type="text/javascript">
-    function init() {
-    window.addEventListener('scroll', function(e){
-        var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-            shrinkOn = 300,
-            header = document.querySelector("header");
-        if (distanceY > shrinkOn) {
-            classie.add(header,"smaller");
-        } else {
-            if (classie.has(header,"smaller")) {
-                classie.remove(header,"smaller");
-            }
+        function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 300,
+                nav = document.querySelector("nav");
+            if (distanceY > shrinkOn) {
+                classie.add(nav,"smaller");
+            } else {
+            if (classie.has(nav,"smaller")) {
+                classie.remove(nav,"smaller");
+                    }
+                }
+            });
         }
-    });
-}
-window.onload = init();
+        window.onload = init();
     </script>
     
     </head>
@@ -36,7 +37,8 @@ window.onload = init();
 <header>
 <nav class>
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <img  href="#" class="brand-logo" src="img/yellowpolygon-logo.svg" height="100%" width="auto">
+      <a id="logo-container" href="#" class="brand-name">Yellow Polygon</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#">Navbar Link</a></li>
       </ul>

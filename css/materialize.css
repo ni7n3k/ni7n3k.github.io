@@ -2627,7 +2627,14 @@ ul li {
   box-shadow: none !important;
 }
 
-.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+.z-depth-1, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+nav {
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
+}
+nav.smaller {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -7304,15 +7311,15 @@ nav ul a span.badge {
 
 nav {
   width: 100%;
-  height: 56px;
+  height: 120px;
   position: fixed;
-  line-height: 126px;
+  background-color: rgba(255,255,255,0);
   z-index: 999;
-  -webkit-transition: height 0.3s;
-  -moz-transition: height 0.3s;
-  -ms-transition: height 0.3s;
-  -o-transition: height 0.3s;
-  transition: height 0.3s;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
 }
 nav.smaller {
   height: 56px;
@@ -7346,7 +7353,7 @@ nav .button-collapse {
   float: left;
   position: relative;
   z-index: 1;
-  height: 56px;
+  height: 560px;
 }
 
 nav .button-collapse i {
@@ -7362,6 +7369,7 @@ nav .brand-logo {
   font-size: 2.1rem;
   padding: 0;
   white-space: nowrap;
+  
 }
 
 nav .brand-logo.center {
@@ -7394,6 +7402,73 @@ nav .brand-logo.right {
   right: 0.5rem;
   padding: 0;
 }
+
+nav .brand-name {
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.1rem;
+  padding: 0;
+  white-space: nowrap;
+  line-height: 140px;
+  left: 12%;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+}
+nav.smaller .brand-name {
+  position: absolute;
+  color: #444;
+  display: inline-block;
+  font-size: 1.5rem;
+  padding: 0;
+  white-space: nowrap;
+  line-height: 60px;
+  left: 12%;
+}
+
+nav .brand-name.center {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 992px) {
+  nav .brand-name {
+    left: 50%;
+      line-height: 280px;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  nav .brand-name.left, nav .brand-name.right {
+    padding: 0;
+    -webkit-transform: none;
+            transform: none;
+  }
+  nav .brand-name.left {
+    left: 0.5rem;
+  }
+  nav .brand-name.right {
+    right: 0.5rem;
+    left: auto;
+  }
+}
+
+nav .brand-name.right {
+  right: 0.5rem;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
 
 nav ul {
   margin: 0;
@@ -7484,14 +7559,14 @@ nav .input-field label.active {
 
 @media only screen and (min-width: 601px) {
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: 164px;
+    /* height: 164px; */
     line-height: 64px;
     position: fixed;
-      -webkit-transition: height 0.3s;
-    -moz-transition: height 0.3s;
-    -ms-transition: height 0.3s;
-    -o-transition: height 0.3s;
-    transition: height 0.3s;
+      -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
   }
     nav.smaller, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 64px;
@@ -11289,7 +11364,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 
 
-
+/*
 header {
     width: 100%;
     height: 75px;
@@ -11308,5 +11383,11 @@ header {
 
 header.smaller {
     height: 75px;
+    background-color: rgba(255,255,255,1);
+}
+*/
+
+nav.smaller {
+    height: 55px;
     background-color: rgba(255,255,255,1);
 }
