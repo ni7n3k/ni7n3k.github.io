@@ -6,13 +6,12 @@
  * Made By MaterializeCSS.com
  */
 
-nav ul a,
-nav .brand-logo {
-  color: #444;
-}
-nav .brand-name {
-  color: #444;
-}
+
+
+
+nav .brand-name, nav ul a {color: #FFC657;}
+nav.smaller .brand-name, nav ul a{color: #444;}
+
 
 p {
   line-height: 2rem;
