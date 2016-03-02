@@ -64,6 +64,14 @@ footer.page-footer {
 
 
 
-.container {
-    width: 80%;
-  }
+.container {width: 80%;}
+
+#overlay {margin-top:-25%; width: 100%;}
+
+#imgoverlay {width: 100%;}
+
+h1 {font-size: 3em;margin: 0.67em 0;}
+
+.justify {text-align: justify;}
+
+p.blog {line-height: 1.25rem;}
