@@ -71,7 +71,7 @@ footer.page-footer {
 #imgoverlay {width: 100%;}
 
 
-@media only screen and (max-width : 600px) {
+@media handheld, screen and (max-width : 600px) {
 .overlay {width: 100%;}
 #overlay {margin-top:-45%; width: 100%;overflow-x: hidden;}
 #imgoverlay { width: 170%; -webkit-transform: translateX(-20.6%); transform: translateX(-20.6%);}
