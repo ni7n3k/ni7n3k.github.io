@@ -62,13 +62,22 @@ footer.page-footer {
 
 /* Quentin */
 
-
-
 .container {width: 80%;}
+
+.overlay {width: 100%;}
 
 #overlay {margin-top:-25%; width: 100%;}
 
 #imgoverlay {width: 100%;}
+
+
+@media only screen and (max-width : 600px) {
+.overlay {width: 100%;}
+#overlay {margin-top:-45%; width: 100%;overflow-x: hidden;}
+#imgoverlay { width: 170%; -webkit-transform: translateX(-20.6%); transform: translateX(-20.6%);}
+}
+
+
 
 h1 {font-size: 3em;margin: 0.67em 0;}
 h2 {font-size: 2em;margin: 0.67em 0;}
