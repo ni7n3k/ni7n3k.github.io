@@ -16,7 +16,7 @@ p {
 }
 
 .button-collapse {
-  color: #26a69a;
+  color: #fdd835;
 }
 
 .parallax-container {
@@ -85,5 +85,7 @@ h2 {font-size: 2em;margin: 0.67em 0;}
 .card .card-title {font-size: 20px;font-weight: 400;}
 
 .justify {text-align: justify;}
+
+.lightback {background-color: #E7E4E8;}
 
 p.blog {line-height: 1.25rem;}
