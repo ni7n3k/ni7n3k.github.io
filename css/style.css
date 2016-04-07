@@ -64,6 +64,8 @@ footer.page-footer {
 
 .container {width: 80%;}
 
+
+
 .overlay {width: 100%;}
 
 #overlay {margin-top:-25%; width: 100%;}
@@ -89,3 +91,11 @@ h2 {font-size: 2em;margin: 0.67em 0;}
 .lightback {background-color: #E7E4E8;}
 
 p.blog {line-height: 1.25rem;}
+
+
+/* Temp index */
+.container-centered {margin: 20% auto; max-width: 1280px; width: 90%;}
+@media only screen and (min-width: 601px) {.container-centered {width: 85%;}}
+@media only screen and (min-width: 993px) {.container-centered {width: 70%;}}
+
+.centerimg {margin-left:44%;}
