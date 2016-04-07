@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="240px" height="375px" viewBox="0 0 240 375" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>mydrop clean</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="yellowpolygon" sketch:type="MSLayerGroup">
+            <path d="M120,0 L159.061516,81.3781578 L96.8748339,46.2503322 L120,0 Z" id="face1" fill="#FFF1AE" sketch:type="MSShapeGroup"></path>
+            <path d="M0,240 L96.8699951,46.25 L159.059998,81.3800049 L0,240 Z" id="face2" fill="#FFDB81" sketch:type="MSShapeGroup"></path>
+            <path d="M97.4200134,142.850006 L159.059998,81.3800049 L199.546878,165.722662 L97.4200134,142.850006 Z" id="face3" fill="#F3A63C" sketch:type="MSShapeGroup"></path>
+            <path d="M240,250 L225.450012,280.920013 L175,275 L97.4200134,142.850006 L199.549988,165.720001 L240,250 Z" id="face4" fill="#EB9337" sketch:type="MSShapeGroup"></path>
+            <path d="M175,275 L0,240 L97.4243739,142.845128 L175,275 Z" id="face5" fill="#FFC657" sketch:type="MSShapeGroup"></path>
+            <path d="M0,240 L175,275 L40,335 L0,240 Z" id="face6" fill="#F99E33" sketch:type="MSShapeGroup"></path>
+            <path d="M175,275 L40,335 L80,355 L120,375 L200,335 L225.449312,280.920212 L175,275 Z" id="face7" fill="#DF7710" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
