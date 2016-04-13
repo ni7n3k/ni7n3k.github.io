@@ -88,9 +88,16 @@ h2 {font-size: 2em;margin: 0.67em 0;}
 
 .justify {text-align: justify;}
 
-.lightback {background-color: #E7E4E8;}
+.lightback {background-color: #eeeeee;}
 
 p.blog {line-height: 1.25rem;}
+
+
+/* panorama slider */
+.slider {height: 500px;}
+.slider .slides {height: 500px;}
+.slider .indicators .indicator-item.active {background-color: #fdd835;}
+
 
 
 /* Temp index */
