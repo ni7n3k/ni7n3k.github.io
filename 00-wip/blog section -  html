@@ -1,0 +1,63 @@
+<div class="container">
+    <div class="section">
+      <h2>Latest articles:</h2>
+      <div class="row">
+          <!-- This content will be:
+          12-columns-wide on large screens,
+          3-columns-wide on medium screens,
+          3-columns-wide on small screens  
+         <div class="col s12 m4 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="background3.jpg">
+              </div>
+              <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Virtual Reality for Real Estate<i class="material-icons right">more_vert</i></span>
+              </div>
+              <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Virtual Reality for Real Estate<i class="material-icons right">close</i></span>
+                  <p class="blog">New virtual reality headsets like the Oculus Rift (left) and Samsung GearVR (right) have made virtual reality very relevant for real estate sales. It's a fast-paced world and no one has much time to spare these days. When clients call you about real estate prospects, they are often put off by making a commitment for a walk through the property. They'll  ...</p>
+                  <a href="#">Read more...</a>
+              </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m4 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="background3.jpg">
+              </div>
+              <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Luxury Property Marketing - Promote New Projects with Virtual Reality<i class="material-icons right">more_vert</i></span>
+              </div>
+              <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Luxury Property Marketing - Promote New Projects with Virtual Reality<i class="material-icons right">close</i></span>
+                  <p class="blog">VR, short for virtual reality, is a rapidly developing technology that has tremendous potential for marketing luxury properties. No longer the province of high end animation studios, firms are harnessing the power of VR to push the boundaries of visual marketing.  The ability to render different buildings in the virtual world is becoming easier, more realistic, and more beautiful. Today's ...</p>
+                  <a href="#">Read more...</a>
+              </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m4 l4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="background3.jpg">
+              </div>
+              <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">3 Reasons Why 3d Architectural Visualization Is Critical to a Real Estate Development’s Success<i class="material-icons right">more_vert</i></span>
+              </div>
+              <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">3 Reasons Why 3d Architectural Visualization Is Critical to a Real Estate Development’s Success<i class="material-icons right">close</i></span>
+                  <p class="blog">Architectural visualization is computed generated imaging created by three-dimensional computer modeling and design programs. They are used mainly to enhance visual presentations in real estate. There are three reasons why 3D Architectural Visualization is critical to a real estate development's success. These include: Concise illustrations and renderings useful to preview a real estate development's design,  ...</p>
+                  <a href="#">Read more...</a>
+              </div>
+            </div>
+        </div>
+        
+  
+        
+  
+      </div>
+      <a class="waves-effect waves-light btn amber accent-2 grey-text text-darken-3">Read all articles</a>
+    </div>
+  </div>
