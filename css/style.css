@@ -185,7 +185,7 @@ nav.smaller ul{display: block;}
   }
   nav.smaller .brand-logo {
     left: 50%;
-    height: 95%;
+    height: 85%;
   }
 }
 /* brand name */
@@ -204,6 +204,7 @@ nav.smaller ul{display: block;}
   nav {height: 20%; background-color: rgba(255,255,255,1);}
   nav.smaller {height:10%; background-color: rgba(255,255,255,1);}
   .tagline {margin-top:40%;}
+  .overlay {display: none;}
 }
 /* brand logo */
 @media only screen and (max-width: 600px) {
