@@ -17,9 +17,16 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.js"></script>
   <script type="text/javascript">
         function init() {
+          var w = window,
+              d = document,
+              e = d.documentElement,
+              g = d.getElementsByTagName('body')[0],
+              x = w.innerWidth || e.clientWidth || g.clientWidth,
+              y = w.innerHeight|| e.clientHeight|| g.clientHeight;
+          
         window.addEventListener('scroll', function(e){
             var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                shrinkOn = 300,
+                shrinkOn = y,
                 nav = document.querySelector("nav");
             if (distanceY > shrinkOn) {
                 classie.add(nav,"smaller");
@@ -30,43 +37,49 @@
                 }
             });
         }
-        window.onload = init();
+        window.onload = init;
+        window.onresize = init;
     </script>
-  
 </head>
 
   
-<body>
-  <nav class="white" role="navigation">
+<header>
+  <nav class>
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+      <img  href="#" class="brand-logo" src="img/yellowpolygon-logo.svg">
+      <a id="logo-container" href="#" class="brand-name">yellowpolygon</a>
+      <ul id="nav" class="right hide-on-med-and-down">
+        <li><a href="#contact">LET'S TALK!</a></li>
+        <li><a href="#work">Our Work</a></li>
+        <li><a href="#how">How We Do It</a></li>
+        <li><a href="#what">What We Do</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#">LET'S TALK!</a></li>
+        <li><a href="#">Our Work</a></li>
+        <li><a href="#">How We Do It</a></li>
+        <li><a href="#">What We Do</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-
+</header>
+  
+  
+  
+<body>
+  
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
-        <br><br>
-        <h1 class="header center amber-text text-accent-2">Virtual Reality Services for the Real Estate Industry</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">Virtual Reality Services for the Real Estate Industry</h5>
+        <div class="row center" style="margin-top:17%;">
+          <h5 class="header col s12 grey-text text-darken-3">Virtual Reality Services for the Real Estate Industry</h5>
         </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light grey darken-3 white-text">Talk to us</a>
-        </div>
-        <br><br>
 
       </div>
     </div>
-    <div class="parallax"><img src="img/index/suburb.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="img/index/background1_gradient.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
   
@@ -77,7 +90,7 @@
     </div>
   
   
-  <div class="container">
+  <div id="what" class="container">
     <div class="section">
       <div class="row">
         <div class="col s12 center">
@@ -110,8 +123,10 @@
             </ul>
           </div>
         </div>
-        
+      
+<!--  
       <a class="waves-effect waves-light btn grey darken-3 white-text">full range of services</a>
+-->
           
         </div>
       </div>
@@ -122,7 +137,7 @@
 
 
   
-<div class="lightback">  
+<div id="how" class="lightback">  
 <div class="container">
     <div class="section">
       <div class="row">
@@ -162,7 +177,11 @@
         </div>
           <p class="center-align light">We create the most immersive experiences using the latest Head Mounted Displays technology and most advanced software:</p>
           <img src="img/software-logos.png" style="width:100%">
+          
+<!--          
           <a class="waves-effect waves-light btn grey darken-3 white-text">Learn More</a>
+-->          
+          
       </div>
       </div>
     </div>
@@ -175,12 +194,12 @@
   
   
           
-  <div class="container">
+  <div id="work" class="container">
     <div class="section">
       <div class="row">
         <div class="col s12 center">
           <h4>Our Work</h4>
-          <p class="left-align light"><b>yellowpolygon</b> creates fully immersive VR worlds that give your clients an experience like no other. Whether it's visualizing a property that hasn't even been built yet, or a product on the other side of the world, Virtual Reality can connect your audience with your product both emotionally and physically.</p>
+          <p class="left-align light"><b>yellowpolygon</b> offers a variety of Virtual Reality services. Below are a few examples of the result you can expect working with us.</p>
         </div>
       </div>
 <div class="row">
@@ -297,7 +316,7 @@
   
   
   
-  <footer class="page-footer grey lighten-3">
+  <footer id="contact" class="page-footer grey lighten-3">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
@@ -342,7 +361,17 @@
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
+  <script src="//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
   <script src="js/init.js"></script>
 
+  <script type="text/javascript">
+    $(function(){
+      $("#nav a").click(function(e){
+        e.preventDefault();
+        $('html,body').scrollTo(this.hash,this.hash); 
+      });
+    });
+  </script>
+  
   </body>
 </html>
