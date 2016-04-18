@@ -1,58 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour start="node3">
-  <panorama id="node2" hideabout="1">
+<tour start="node12">
+  <panorama id="node12" hideabout="1">
     <view fovmode="0" pannorth="0">
       <start pan="0" fov="70" tilt="0"/>
       <min pan="0" fov="5" tilt="-90"/>
       <max pan="360" fov="120" tilt="90"/>
     </view>
-    <userdata title="" datetime="" description="" copyright="" tags="Pano1-entry" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <userdata title="" datetime="2016:04:17 22:27:08" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x000000" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
       <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot title="corridor" target="" pan="-29.64" skinid="" url="{node3}" id="pano1-2" tilt="-1.41"/>
-      <hotspot title="terrasse" target="" pan="-14.7" skinid="" url="{node6}" id="entry-terrasse" tilt="-2.06"/>
+      <hotspot title="hall" target="" pan="-3.21144" skinid="" url="{node9}" id="Point01" tilt="3.00639"/>
+      <hotspot title="west patio" target="" pan="-52.8016" skinid="" url="{node7}" id="Point02" tilt="3.13317"/>
+      <hotspot title="easat patio" target="" pan="55.6824" skinid="" url="{node6}" id="Point03" tilt="3.68865"/>
+      <hotspot title="living room" target="" pan="7.72202" skinid="" url="{node11}" id="Point04" tilt="3.11621"/>
     </hotspots>
     <media/>
-    <input tile0url="images/Pano1-entry.RGB_color_o_0.jpg" tile5url="images/Pano1-entry.RGB_color_o_5.jpg" tilesize="856" tile4url="images/Pano1-entry.RGB_color_o_4.jpg" tile3url="images/Pano1-entry.RGB_color_o_3.jpg" tilescale="1.011682242990654" tile2url="images/Pano1-entry.RGB_color_o_2.jpg" tile1url="images/Pano1-entry.RGB_color_o_1.jpg"/>
-    <autorotate speed="0.100" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="5.00"/>
-    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
-  </panorama>
-  <panorama id="node3" hideabout="1">
-    <view fovmode="0" pannorth="0">
-      <start pan="0" fov="70" tilt="0"/>
-      <min pan="0" fov="5" tilt="-90"/>
-      <max pan="360" fov="120" tilt="90"/>
-    </view>
-    <userdata title="" datetime="" description="" copyright="" tags="pano2-corridor" author="" source="" comment="" info="" longitude="" latitude=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x000000" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
-      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot title="living room" target="" pan="-14.07" skinid="" url="{node5}" id="corridor-living room" tilt="-1.85"/>
-      <hotspot title="bedroom" target="" pan="-94.39" skinid="" url="{node4}" id="corridor-bedroom" tilt="-4.25"/>
-      <hotspot title="entry" target="" pan="-149.98" skinid="" url="{node2}" id="corridor-entry" tilt="-2.49"/>
-      <hotspot title="terrasse" target="" pan="77.03" skinid="" url="{node6}" id="corridor-terrasse" tilt="-2.39"/>
-    </hotspots>
-    <media/>
-    <input tile0url="images/pano2-corridor.RGB_color_o_0.jpg" tile5url="images/pano2-corridor.RGB_color_o_5.jpg" tilesize="856" tile4url="images/pano2-corridor.RGB_color_o_4.jpg" tile3url="images/pano2-corridor.RGB_color_o_3.jpg" tilescale="1.011682242990654" tile2url="images/pano2-corridor.RGB_color_o_2.jpg" tile1url="images/pano2-corridor.RGB_color_o_1.jpg"/>
-    <autorotate speed="0.100" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="5.00"/>
-    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
-  </panorama>
-  <panorama id="node4" hideabout="1">
-    <view fovmode="0" pannorth="0">
-      <start pan="0" fov="70" tilt="0"/>
-      <min pan="0" fov="5" tilt="-90"/>
-      <max pan="360" fov="120" tilt="90"/>
-    </view>
-    <userdata title="" datetime="" description="" copyright="" tags="pano3-bedroom" author="" source="" comment="" info="" longitude="" latitude=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x000000" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
-      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot title="terrasse" target="" pan="9.4" skinid="" url="{node6}" id="bedroom-terrasse" tilt="-2.81"/>
-      <hotspot title="corridor" target="" pan="-10.43" skinid="" url="{node3}" id="bedroom-corridor" tilt="-2.7"/>
-    </hotspots>
-    <media/>
-    <input tile0url="images/pano3-bedroom.RGB_color_o_0.jpg" tile5url="images/pano3-bedroom.RGB_color_o_5.jpg" tilesize="856" tile4url="images/pano3-bedroom.RGB_color_o_4.jpg" tile3url="images/pano3-bedroom.RGB_color_o_3.jpg" tilescale="1.011682242990654" tile2url="images/pano3-bedroom.RGB_color_o_2.jpg" tile1url="images/pano3-bedroom.RGB_color_o_1.jpg"/>
+    <input tile0url="images/ext facade north_o_0.jpg" tile5url="images/ext facade north_o_5.jpg" tilesize="800" tile4url="images/ext facade north_o_4.jpg" tile3url="images/ext facade north_o_3.jpg" tilescale="1.0125" tile2url="images/ext facade north_o_2.jpg" tile1url="images/ext facade north_o_1.jpg"/>
     <autorotate speed="0.100" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="5.00"/>
     <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
   </panorama>
@@ -62,15 +26,18 @@
       <min pan="0" fov="5" tilt="-90"/>
       <max pan="360" fov="120" tilt="90"/>
     </view>
-    <userdata title="" datetime="" description="" copyright="" tags="Pano4-living room" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <userdata title="" datetime="2016:04:17 22:39:44" description="" copyright="" tags="Pano4-living room" author="" source="" comment="" info="" longitude="" latitude=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x000000" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
       <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot title="corridor" target="" pan="77.70999999999999" skinid="" url="{node3}" id="living room-corridor" tilt="-4.44"/>
-      <hotspot title="terrasse" target="" pan="17.84" skinid="" url="{node6}" id="living room-terrasse" tilt="-6.17"/>
+      <hotspot title="west patio" target="" pan="50.3683" skinid="" url="{node7}" id="Point01" tilt="0.7939850000000001"/>
+      <hotspot title="east patio" target="" pan="-46.5128" skinid="" url="{node6}" id="Point02" tilt="1.17048"/>
+      <hotspot title="pool" target="" pan="-29.7136" skinid="" url="{node8}" id="Point03" tilt="-5.72335"/>
+      <hotspot title="living room" target="" pan="-16.8999" skinid="" url="{node11}" id="Point04" tilt="-0.451584"/>
+      <hotspot title="kitchen" target="" pan="-6.13812" skinid="" url="{node10}" id="Point05" tilt="-0.599298"/>
     </hotspots>
     <media/>
-    <input tile0url="images/Pano4-living room.RGB_color_o_0.jpg" tile5url="images/Pano4-living room.RGB_color_o_5.jpg" tilesize="856" tile4url="images/Pano4-living room.RGB_color_o_4.jpg" tile3url="images/Pano4-living room.RGB_color_o_3.jpg" tilescale="1.011682242990654" tile2url="images/Pano4-living room.RGB_color_o_2.jpg" tile1url="images/Pano4-living room.RGB_color_o_1.jpg"/>
+    <input tile0url="images/ext facade south_o_0.jpg" tile5url="images/ext facade south_o_5.jpg" tilesize="800" tile4url="images/ext facade south_o_4.jpg" tile3url="images/ext facade south_o_3.jpg" tilescale="1.0125" tile2url="images/ext facade south_o_2.jpg" tile1url="images/ext facade south_o_1.jpg"/>
     <autorotate speed="0.100" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="5.00"/>
     <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
   </panorama>
@@ -80,15 +47,116 @@
       <min pan="0" fov="5" tilt="-90"/>
       <max pan="360" fov="120" tilt="90"/>
     </view>
-    <userdata title="" datetime="" description="" copyright="" tags="Pano5-terrasse" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <userdata title="" datetime="2016:04:17 22:38:17" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x000000" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
       <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot title="living room" target="" pan="-2.2" skinid="" url="{node5}" id="terrasse-living room" tilt="-4.61"/>
-      <hotspot title="corridor" target="" pan="-82.76000000000001" skinid="" url="{node3}" id="terrasse-corridor" tilt="-2.97"/>
+      <hotspot title="pool" target="" pan="18.2359" skinid="" url="{node8}" id="Point01" tilt="-4.69437"/>
+      <hotspot title="garden" target="" pan="46.7139" skinid="" url="{node5}" id="Point02" tilt="-2.74577"/>
+      <hotspot title="entry" target="" pan="-63.2232" skinid="" url="{node12}" id="Point03" tilt="-1.06793"/>
     </hotspots>
     <media/>
-    <input tile0url="images/pano5-terrasse.RGB_color_o_0.jpg" tile5url="images/pano5-terrasse.RGB_color_o_5.jpg" tilesize="856" tile4url="images/pano5-terrasse.RGB_color_o_4.jpg" tile3url="images/pano5-terrasse.RGB_color_o_3.jpg" tilescale="1.011682242990654" tile2url="images/pano5-terrasse.RGB_color_o_2.jpg" tile1url="images/pano5-terrasse.RGB_color_o_1.jpg"/>
+    <input tile0url="images/ext patio east_o_0.jpg" tile5url="images/ext patio east_o_5.jpg" tilesize="800" tile4url="images/ext patio east_o_4.jpg" tile3url="images/ext patio east_o_3.jpg" tilescale="1.0125" tile2url="images/ext patio east_o_2.jpg" tile1url="images/ext patio east_o_1.jpg"/>
+    <autorotate speed="0.100" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="5.00"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node7" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="" datetime="2016:04:17 22:38:56" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x000000" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="entry" target="" pan="40.6659" skinid="" url="{node12}" id="Point01" tilt="-2.10431"/>
+      <hotspot title="garden" target="" pan="-59.6281" skinid="" url="{node5}" id="Point02" tilt="-1.16774"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/ext patio west_o_0.jpg" tile5url="images/ext patio west_o_5.jpg" tilesize="800" tile4url="images/ext patio west_o_4.jpg" tile3url="images/ext patio west_o_3.jpg" tilescale="1.0125" tile2url="images/ext patio west_o_2.jpg" tile1url="images/ext patio west_o_1.jpg"/>
+    <autorotate speed="0.100" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="5.00"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node8" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="" datetime="2016:04:18 11:42:00" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x000000" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="living room" target="" pan="-18.2256" skinid="" url="{node11}" id="Point01" tilt="-5.15817"/>
+      <hotspot title="kitchen" target="" pan="39.1234" skinid="" url="{node10}" id="Point02" tilt="-3.80047"/>
+      <hotspot title="hall" target="" pan="23" skinid="" url="{node9}" id="Point03" tilt="-2.81195"/>
+      <hotspot title="west patio" target="" pan="82.5655" skinid="" url="{node7}" id="Point04" tilt="-0.486797"/>
+      <hotspot title="east patio" target="" pan="-73.4178" skinid="" url="{node6}" id="Point05" tilt="-1.29341"/>
+      <hotspot title="garden" target="" pan="169.379" skinid="" url="{node5}" id="Point06" tilt="-4.05888"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/ext pool_o_0.jpg" tile5url="images/ext pool_o_5.jpg" tilesize="800" tile4url="images/ext pool_o_4.jpg" tile3url="images/ext pool_o_3.jpg" tilescale="1.0125" tile2url="images/ext pool_o_2.jpg" tile1url="images/ext pool_o_1.jpg"/>
+    <autorotate speed="0.100" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="5.00"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node9" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="" datetime="2016:04:17 22:41:44" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x000000" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="entry" target="" pan="-179.377" skinid="" url="{node12}" id="Point01" tilt="-7.24651"/>
+      <hotspot title="living room" target="" pan="54.8025" skinid="" url="{node11}" id="Point02" tilt="-2.20673"/>
+      <hotspot title="kitchen" target="" pan="1.3005" skinid="" url="{node10}" id="Point03" tilt="1.36097"/>
+      <hotspot title="pool" target="" pan="26.6395" skinid="" url="{node8}" id="Point04" tilt="-1.80828"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/int entry_o_0.jpg" tile5url="images/int entry_o_5.jpg" tilesize="800" tile4url="images/int entry_o_4.jpg" tile3url="images/int entry_o_3.jpg" tilescale="1.0125" tile2url="images/int entry_o_2.jpg" tile1url="images/int entry_o_1.jpg"/>
+    <autorotate speed="0.100" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="5.00"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node10" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="" datetime="2016:04:17 22:45:05" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x000000" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="hall" target="" pan="138.153" skinid="" url="{node9}" id="Point01" tilt="-5.41474"/>
+      <hotspot title="living room" target="" pan="102.325" skinid="" url="{node11}" id="Point02" tilt="-3.88448"/>
+      <hotspot title="pool" target="" pan="73.72620000000001" skinid="" url="{node8}" id="Point03" tilt="-5.66068"/>
+      <hotspot title="west patio" target="" pan="-76.4819" skinid="" url="{node7}" id="Point04" tilt="-0.180165"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/int kitchen_o_0.jpg" tile5url="images/int kitchen_o_5.jpg" tilesize="800" tile4url="images/int kitchen_o_4.jpg" tile3url="images/int kitchen_o_3.jpg" tilescale="1.0125" tile2url="images/int kitchen_o_2.jpg" tile1url="images/int kitchen_o_1.jpg"/>
+    <autorotate speed="0.100" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="5.00"/>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node11" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" tilt="90"/>
+    </view>
+    <userdata title="" datetime="2016:04:18 11:18:29" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x000000" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="kitchen" target="" pan="-76.58499999999999" skinid="" url="{node10}" id="Point01" tilt="-2.98123"/>
+      <hotspot title="hall" target="" pan="-107.041" skinid="" url="{node9}" id="Point02" tilt="-2.80098"/>
+      <hotspot title="pool" target="" pan="-20.3933" skinid="" url="{node8}" id="Point03" tilt="-9.551550000000001"/>
+      <hotspot title="garden" target="" pan="-1.52567" skinid="" url="{node5}" id="Point04" tilt="0.131072"/>
+    </hotspots>
+    <media/>
+    <input tile0url="images/int living room_o_0.jpg" tile5url="images/int living room_o_5.jpg" tilesize="800" tile4url="images/int living room_o_4.jpg" tile3url="images/int living room_o_3.jpg" tilescale="1.0125" tile2url="images/int living room_o_2.jpg" tile1url="images/int living room_o_1.jpg"/>
     <autorotate speed="0.100" nodedelay="0.00" startloaded="0" returntohorizon="0.000" delay="5.00"/>
     <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="1" invertcontrol="1" speedwheel="1" sensitivity="8"/>
   </panorama>

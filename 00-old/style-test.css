@@ -177,7 +177,7 @@ nav.smaller ul{display: block;}
 nav ul li {
   float: right;
   padding: 0;
-  line-height: 92px;
+  line-height: 84px;
   /* FIX transition does not seem to be working */
   -webkit-transition: all 0.8s;
   -moz-transition: all 0.8s;
@@ -188,7 +188,7 @@ nav ul li {
 nav.smaller ul li {
   float: right;
   padding: 0;
-  line-height: 56px;
+  line-height: 64px;
   /* FIX transition does not seem to be working */
   -webkit-transition: all 0.8s;
   -moz-transition: all 0.8s;
@@ -257,7 +257,7 @@ nav ul a {font-size: 1.7vw}
     position: absolute;
     font-size: 1.4rem;
     left: 50%;
-    top: 65%;
+    top: 60%;
     
   }
   nav.smaller .brand-name {
@@ -271,15 +271,6 @@ nav ul a {font-size: 1.7vw}
 .slider {height: 500px;}
 .slider .slides {height: 500px;}
 .slider .indicators .indicator-item.active {background-color: #fdd835;}
-.slider .indicators {
-  position: absolute;
-  text-align: center;
-  left: 0;
-  right: 0;
-  bottom: -10px;
-  margin: 0;
-}
-
 
 
 /*** FIX FOR MATERIAL DESIGN ICONS ***/
@@ -307,8 +298,8 @@ word-wrap: normal;
 
 
 
-.new-background{position: relative; height: 100vh; overflow: hidden}
-.background-img {position: absolute; height: 100%; top:-9999px; left:-9999px; right: -9999px; bottom:-9999px;margin: auto;}
+
+.background-img {margin-top:-15%; width: 100%; min-height: 100vh; overflow-x: hidden}
 
 
 

@@ -98,9 +98,8 @@ nav.smaller {box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0
 nav a.button-collapse {display: none;}
 nav .button-collapse {float: left; position: relative; z-index: 1; height: 560px;}
 nav .button-collapse i {font-size: 2.7rem; height: 56px; line-height: 56px;}
-nav ul {display: inline-block; position: relative; top: 36%;}
-nav.smaller ul {display: block; top:20%}
-nav ul a {font-size: 1.2vw}
+nav ul{display: inline-block; position: relative; top: 36%;}
+nav.smaller ul{display: block; top:20%}
 }
 /* brand logo */
 nav .brand-logo {
@@ -177,7 +176,7 @@ nav.smaller ul{display: block;}
 nav ul li {
   float: right;
   padding: 0;
-  line-height: 92px;
+  line-height: 84px;
   /* FIX transition does not seem to be working */
   -webkit-transition: all 0.8s;
   -moz-transition: all 0.8s;
@@ -185,10 +184,10 @@ nav ul li {
   -o-transition: all 0.8s;
   transition: all 0.8s;
 }
-nav.smaller ul li {
+  nav.smaller ul li {
   float: right;
   padding: 0;
-  line-height: 56px;
+  line-height: 64px;
   /* FIX transition does not seem to be working */
   -webkit-transition: all 0.8s;
   -moz-transition: all 0.8s;
@@ -196,7 +195,6 @@ nav.smaller ul li {
   -o-transition: all 0.8s;
   transition: all 0.8s;
 }
-nav ul a {font-size: 1.7vw}
 }
 /* brand logo */
 @media only screen and (max-width: 992px) {
@@ -211,17 +209,14 @@ nav ul a {font-size: 1.7vw}
 /* brand name */
 @media only screen and (max-width: 992px) {
   nav .brand-name {
-    position: relative;
-    display: inline-block;
     left: 19%;
     top: 14%;
-    font-size: 2.8vw;
-    padding: 0;
+    font-size: 1.3rem;
   }
   nav.smaller .brand-name {
   position:absolute;
   display: inline-block;
-  font-size: 2.5vw;
+  font-size: 1.3rem;
   padding: 0;
   white-space: nowrap;
   left: 19%;
@@ -257,7 +252,7 @@ nav ul a {font-size: 1.7vw}
     position: absolute;
     font-size: 1.4rem;
     left: 50%;
-    top: 65%;
+    top: 60%;
     
   }
   nav.smaller .brand-name {
@@ -271,15 +266,6 @@ nav ul a {font-size: 1.7vw}
 .slider {height: 500px;}
 .slider .slides {height: 500px;}
 .slider .indicators .indicator-item.active {background-color: #fdd835;}
-.slider .indicators {
-  position: absolute;
-  text-align: center;
-  left: 0;
-  right: 0;
-  bottom: -10px;
-  margin: 0;
-}
-
 
 
 /*** FIX FOR MATERIAL DESIGN ICONS ***/
@@ -307,8 +293,8 @@ word-wrap: normal;
 
 
 
-.new-background{position: relative; height: 100vh; overflow: hidden}
-.background-img {position: absolute; height: 100%; top:-9999px; left:-9999px; right: -9999px; bottom:-9999px;margin: auto;}
+
+.background-img {margin-top:-15%; width: 100%; min-height: 100vh; overflow-x: hidden}
 
 
 
