@@ -232,7 +232,7 @@ nav ul a {font-size: 1.7vw}
 /*** nav small screens ***/
 /* general */
 @media only screen and (max-width: 600px) {
-  nav {height: 20%; background-color: rgba(255,255,255,1);}
+  nav {height: 15%; background-color: rgba(255,255,255,1);}
   nav.smaller {height:10%; background-color: rgba(255,255,255,1);}
   .tagline {margin-top:40%;}
   .overlay {display: none;}
