@@ -307,9 +307,11 @@ word-wrap: normal;
 
 
 
-.new-background{position: relative; height: 100vh; overflow: hidden}
+.new-background{position: relative; height: 100vh; overflow: hidden; margin-top:-10%;}
 .background-img {position: absolute; height: 100%; top:-9999px; left:-9999px; right: -9999px; bottom:-9999px;margin: auto;}
-
+@media only screen and (max-width: 600px) {
+  .new-background{margin-top:-6%;}
+}
 
 
 
