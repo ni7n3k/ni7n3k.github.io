@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.0/3102S
 // Filename: minimal pc web.ggsk
-// Generated Sal 19. Nis 00:15:45 2016
+// Generated Sal 19. Nis 11:23:47 2016
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -95,14 +95,14 @@ function pano2vrSkin(player,base) {
 			this.style[domTransition]='none';
 			if (this.parentNode) {
 				w=this.parentNode.offsetWidth;
-				this.style.left=(-46 + w/2) + 'px';
+				this.style.left=(-36 + w/2) + 'px';
 				h=this.parentNode.offsetHeight;
-				this.style.top=(-58 + h) + 'px';
+				this.style.top=(-59 + h) + 'px';
 			}
 		}
 		hs ='position:absolute;';
-		hs+='left: -46px;';
-		hs+='top:  -58px;';
+		hs+='left: -36px;';
+		hs+='top:  -59px;';
 		hs+='width: 82px;';
 		hs+='height: 50px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -253,14 +253,14 @@ function pano2vrSkin(player,base) {
 			this.style[domTransition]='none';
 			if (this.parentNode) {
 				w=this.parentNode.offsetWidth;
-				this.style.left=(-114 + w/2) + 'px';
+				this.style.left=(-102 + w/2) + 'px';
 				h=this.parentNode.offsetHeight;
-				this.style.top=(166 + h/2) + 'px';
+				this.style.top=(-135 + h) + 'px';
 			}
 		}
 		hs ='position:absolute;';
-		hs+='left: -114px;';
-		hs+='top:  166px;';
+		hs+='left: -102px;';
+		hs+='top:  -135px;';
 		hs+='width: 210px;';
 		hs+='height: 60px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -545,8 +545,6 @@ function pano2vrSkin(player,base) {
 			this._hotspot_text.setAttribute('style',hs);
 			this._hotspot_text.innerHTML=me.hotspot.title;
 			this.__div.appendChild(this._hotspot_text);
-			this.ggUse3d=true;
-			this.gg3dDistance=500;
 		}
 	};
 	this.addSkinHotspot=function(hotspot) {

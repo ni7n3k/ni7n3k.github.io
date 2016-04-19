@@ -43,7 +43,6 @@
         <div class="row center" >
           <h5 class="tagline header col s12 grey-text text-darken-3">Virtual Reality Services for the Real Estate Industry</h5>
         </div>
-
       </div>
     </div>
     <div class="parallax"><img class="top-image" src="img/index/background1_gradient.jpg" alt="Unsplashed background img 1"></div>
@@ -58,7 +57,12 @@
   
   <div class="section no-pad-bot">
     <div class="new-background no-pad-bot show-on-medium-and-down hide-on-large-only">
-      <img class="background-img" src="img/index/background1_gradient.jpg" alt="Unsplashed background img 2">
+      <div class="container">
+        <div class="row center" >
+          <h5 class="tagline header col s12 grey-text text-darken-3">Virtual Reality Services for the Real Estate Industry</h5>
+        </div>
+      </div>
+      <img style="z-index: -1" class="background-img" src="img/index/background1_gradient.jpg" alt="Unsplashed background img 2">
     </div>
   </div>
   
@@ -129,17 +133,17 @@
           <div class="col s12 m6 l6">
             <h5 class="">The Process</h5>
             <p class=" light">The process is simple:</p>
-            <ul class="light left-align">
-              <li>- You provide us with 2D drawings or 3D models of your project.</li>
-              <li>- We build the VR application from the documents you provide.</li>
-              <li>- We equip you with the technology to immerse your clients in the scenes.</li>
+            <ul class="light">
+              <li>- You send us 2D or 3D dcuments of your project.</li>
+              <li>- We build the immersive application.</li>
+              <li>- We equip you with the technology.</li>
               <li>- You wow your clients !</li>
             </ul>
           </div>
           <div class="col s12 m6 l6">
             <h5 class="">The Technology</h5>
             <p class=" light">We create the most immersive experiences using:</p>
-            <ul class="light left-align">
+            <ul class="light">
               <li>- Immersive Mobile & Tethered VR Technology.</li>
               <li>- 3D Rendered Models and CGI.</li>
               <li>- 2D/ 3D / 360° Photos & Videos.</li>
@@ -200,7 +204,8 @@
           </div>
         </div>
           <p class="center-align light">We create the most immersive experiences using the latest Head Mounted Displays technology and most advanced software:</p>
-          <img src="img/software-logos.png" style="width:100%">
+          <img src="img/software-logos.png" style="width:100%" class="hide-on-small-only">
+          <img src="img/software-logos-mobile.png" style="width:100%" class="hide-on-med-and-up">
           
 <!--          
           <a class="waves-effect waves-light btn grey darken-3 white-text">Learn More</a>
@@ -324,7 +329,7 @@
       $(function(){
         $("#nav a").click(function(e){
           e.preventDefault();
-          $('html,body').scrollTo(this.hash,this.hash); 
+          $('html,body').scrollTo(this.hash,this.hash,{offset:-55}); 
         });
       });
     </script>
@@ -333,6 +338,11 @@
         $("html, body").animate({ scrollTop: 0 }, "slow");
         return false;
       });
+    </script>
+  <script type="text/javascript">
+      $(window).scroll(function(){
+    $(".tagline").css("opacity", 1 - $(window).scrollTop() / 100);
+  });
     </script>
   <!-- fix scroll script for small offset -->
   </body>

@@ -161,7 +161,7 @@ nav.smaller .brand-name {
 @media only screen and (max-width: 992px) {
 nav {
   width: 100%;
-  height: 12%;
+  height: 80px;
   position: fixed;
   background-color: rgba(255,255,255,1);
   z-index: 999;
@@ -177,7 +177,7 @@ nav.smaller ul{display: block;}
 nav ul li {
   float: right;
   padding: 0;
-  line-height: 92px;
+  line-height: 80px;
   /* FIX transition does not seem to be working */
   -webkit-transition: all 0.8s;
   -moz-transition: all 0.8s;
@@ -225,7 +225,7 @@ nav ul a {font-size: 1.7vw}
   padding: 0;
   white-space: nowrap;
   left: 19%;
-  top: 0%;
+  top: 14%;
 }
 }
 
@@ -268,8 +268,7 @@ nav ul a {font-size: 1.7vw}
 
 /*** PORTFOLIO PANORAMA SLIDER ***/
 /*==========================================================================*/
-.slider {height: 500px;}
-.slider .slides {height: 500px;}
+
 .slider .indicators .indicator-item.active {background-color: #fdd835;}
 .slider .indicators {
   position: absolute;
