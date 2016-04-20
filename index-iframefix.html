@@ -14,15 +14,7 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
   <!-- SCRIPTS  -->
-  <script type="text/javascript">
-$(document).ready(function() {
-      alert("document ready occurred!");
-});
 
-$(window).load(function() {
-      alert("window load occurred!");
-});
-    </script>
 </head>
 
   
@@ -330,6 +322,7 @@ $(window).load(function() {
                 }
             });
         }
+        $(document).ready(init());
         window.onload = init;
         window.onresize = init;
     </script>
