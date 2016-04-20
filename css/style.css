@@ -256,8 +256,9 @@ nav ul a {font-size: 1.7vw}
   nav .brand-name {
     position: absolute;
     font-size: 1.4rem;
+    line-height: 1.4rem;
     left: 50%;
-    top: 65%;
+    top: 75%;
     
   }
   nav.smaller .brand-name {
@@ -270,14 +271,7 @@ nav ul a {font-size: 1.7vw}
 /*==========================================================================*/
 
 .slider .indicators .indicator-item.active {background-color: #fdd835;}
-.slider .indicators {
-  position: absolute;
-  text-align: center;
-  left: 0;
-  right: 0;
-  bottom: -10px;
-  margin: 0;
-}
+.slider .indicators {bottom: -10px;}
 
 
 
